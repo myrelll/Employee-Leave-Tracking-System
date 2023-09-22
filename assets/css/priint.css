@@ -1,0 +1,139 @@
+  
+p, label {
+    margin-bottom: 5px;
+}
+
+#uni_modal .modal-footer {
+    display: none !important;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.employee-info {
+    margin: 0;
+}
+
+.leave-info p {
+    margin: 0;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+}
+.button-container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+ }
+
+.badge-approved {
+    background-color: #28a745;
+}
+
+.badge-denied {
+    background-color: #dc3545;
+}
+
+.badge-cancelled {
+    background-color: #dc3545;
+}
+
+.badge-pending {
+    background-color: #007bff;
+}
+
+.signature-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signature-block {
+    text-align: center;
+    width: 48%; /* Adjust the width as needed */
+}
+
+.signature img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    vertical-align: middle; /* Center the image vertically */
+}
+.signature1 img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    vertical-align: middle; /* Center the image vertically */
+}
+
+.signature-name,
+.signature-name1 {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.signature-designation,
+.signature-designation1 {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.print-button {
+    text-align: left;
+    
+}
+
+.close-button {
+    text-align: right;
+  
+}
+
+.human-resource {
+    text-align: center;
+    font-size: 12pt;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.table th {
+    width: 30%;
+}
+
+/* Other CSS styles for screen */
+
+@media print {
+    body {
+        margin: 0;
+        color: green; /* Corrected color value */
+        background-color: #28a745; /* Adjusted background color */
+    }
+    
+    .logo {
+        max-width: auto; /* Reset max-width */
+        max-height: auto; /* Reset max-height */
+    }
+    /* Add other print-specific styles here */
+}
